@@ -10,12 +10,10 @@
 		0FC6DA182D949037007CB69B /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC6DA172D949037007CB69B /* AnalyticsView.swift */; };
 		0FC6DA1B2D9498D3007CB69B /* AddingExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC6DA1A2D9498D3007CB69B /* AddingExpensesView.swift */; };
 		0FC6DA1E2D95B946007CB69B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC6DA1D2D95B946007CB69B /* HomeView.swift */; };
-		0FC6DA202D95C8E7007CB69B /* HomeCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC6DA1F2D95C8E7007CB69B /* HomeCustomButton.swift */; };
 		0FC6DA222D95CC73007CB69B /* PdfDocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC6DA212D95CC73007CB69B /* PdfDocumentPicker.swift */; };
 		2EA1507D2D9353DC001ED73E /* FintechKidsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1507C2D9353DC001ED73E /* FintechKidsApp.swift */; };
 		2EA1507F2D9353DC001ED73E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1507E2D9353DC001ED73E /* ContentView.swift */; };
 		2EA150832D9353DD001ED73E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA150822D9353DD001ED73E /* Assets.xcassets */; };
-		2EA150862D9353DD001ED73E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA150852D9353DD001ED73E /* Preview Assets.xcassets */; };
 		2EA150902D9353DD001ED73E /* FintechKidsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1508F2D9353DD001ED73E /* FintechKidsTests.swift */; };
 		2EA1509A2D9353DD001ED73E /* FintechKidsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA150992D9353DD001ED73E /* FintechKidsUITests.swift */; };
 		2EA1509C2D9353DD001ED73E /* FintechKidsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1509B2D9353DD001ED73E /* FintechKidsUITestsLaunchTests.swift */; };
@@ -58,13 +56,11 @@
 		0FC6DA172D949037007CB69B /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
 		0FC6DA1A2D9498D3007CB69B /* AddingExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingExpensesView.swift; sourceTree = "<group>"; };
 		0FC6DA1D2D95B946007CB69B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		0FC6DA1F2D95C8E7007CB69B /* HomeCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomButton.swift; sourceTree = "<group>"; };
 		0FC6DA212D95CC73007CB69B /* PdfDocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfDocumentPicker.swift; sourceTree = "<group>"; };
 		2EA150792D9353DC001ED73E /* FintechKids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FintechKids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA1507C2D9353DC001ED73E /* FintechKidsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintechKidsApp.swift; sourceTree = "<group>"; };
 		2EA1507E2D9353DC001ED73E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2EA150822D9353DD001ED73E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2EA150852D9353DD001ED73E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2EA1508B2D9353DD001ED73E /* FintechKidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FintechKidsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA1508F2D9353DD001ED73E /* FintechKidsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintechKidsTests.swift; sourceTree = "<group>"; };
 		2EA150952D9353DD001ED73E /* FintechKidsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FintechKidsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				0FC6DA1D2D95B946007CB69B /* HomeView.swift */,
-				0FC6DA1F2D95C8E7007CB69B /* HomeCustomButton.swift */,
 			);
 			path = HomeModule;
 			sourceTree = "<group>";
@@ -168,17 +163,8 @@
 				2EA151562D94A98B001ED73E /* Modules */,
 				2EA151592D94ABDF001ED73E /* Navigation */,
 				2EA150822D9353DD001ED73E /* Assets.xcassets */,
-				2EA150842D9353DD001ED73E /* Preview Content */,
 			);
 			path = FintechKids;
-			sourceTree = "<group>";
-		};
-		2EA150842D9353DD001ED73E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				2EA150852D9353DD001ED73E /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		2EA1508E2D9353DD001ED73E /* FintechKidsTests */ = {
@@ -406,7 +392,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EA150862D9353DD001ED73E /* Preview Assets.xcassets in Resources */,
 				2EA150832D9353DD001ED73E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,7 +432,6 @@
 				2EA150AF2D9387E7001ED73E /* TapBar.swift in Sources */,
 				2EA151602D94B617001ED73E /* BackSideGoalCardView.swift in Sources */,
 				2EA1516B2D958124001ED73E /* GoalsView.swift in Sources */,
-				0FC6DA202D95C8E7007CB69B /* HomeCustomButton.swift in Sources */,
 				0FC6DA1E2D95B946007CB69B /* HomeView.swift in Sources */,
 				2EA151622D9536B6001ED73E /* FlipOpacity.swift in Sources */,
 				2EA151662D954C5B001ED73E /* GoalModel.swift in Sources */,
@@ -617,7 +601,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FintechKids/Preview Content\"";
 				DEVELOPMENT_TEAM = XNT88MR9C6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -647,7 +630,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FintechKids/Preview Content\"";
 				DEVELOPMENT_TEAM = XNT88MR9C6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
