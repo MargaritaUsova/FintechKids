@@ -55,9 +55,9 @@ struct ProfileSettingsView: View {
                     .frame(width: 60, height: 60)
                     .padding(20)
                     .foregroundColor(.white)
-                    .background(Color.blue.gradient)
+                    .background(Color.primaryOrange)
                     .clipShape(Circle())
-                    .overlay(Circle().stroke(Color.accentColor, lineWidth: 2))
+                    .overlay(Circle().stroke(Color.highlightedBackground, lineWidth: 2))
             }
         }
     }
