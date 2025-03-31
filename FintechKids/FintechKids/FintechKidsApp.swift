@@ -13,7 +13,7 @@ struct FintechKidsApp: App {
     let storage = Storage()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
                 .environmentObject(storage)
         }
     }
